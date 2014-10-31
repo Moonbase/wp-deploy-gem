@@ -1,10 +1,5 @@
 namespace :wp do
 
-  task :hoi do
-    puts 'hoi'
-  end
-
-
   task :set_permissions do
     on roles(:app) do
       execute :chmod, "666 #{shared_path}/.htaccess"
