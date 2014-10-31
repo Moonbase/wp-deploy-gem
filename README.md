@@ -12,7 +12,7 @@ Add this line to your application's Capfile:
 
     require 'wp_deploy'
     
-If you want to load the build in Rake tasks, add these lines to your application's Rakefile:
+If you want to load the built-in Rake tasks, add these lines to your application's Rakefile:
 
     # Load tasks from the gem
     require 'bundler'
