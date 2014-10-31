@@ -6,12 +6,8 @@ Ruby gem that provides Capistrano 3 and Rake tasks for the wp-deploy project. Th
 
 Add this line to your application's Gemfile:
 
-    gem 'wp_deploy'
+    gem 'wp_deploy', :git => 'https://github.com/Moonbase/wp-deploy-gem.git'
 
 And then execute:
 
     $ bundle
-
-Or install it yourself as:
-
-    $ gem install wp_deploy
